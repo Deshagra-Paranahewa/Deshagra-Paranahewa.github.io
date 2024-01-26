@@ -299,22 +299,6 @@
                     window.open(gmailLink, '_blank');
                 }
             </script>
-            <section>
-                <h3 class="section-title">CV</h3>
-                <button onclick="downloadResume()" class="contact__button button">Download CV</button><br><br>
-                <script>
-                    function downloadResume() {
-                        var url = 'C:\\Users\\desha\\OneDrive\\Desktop\\Deshagra-Paranahewa.github.io-main\\Deshagra_Paranahewa_CV.pdf';
-                        var fileName = 'Deshagra_Paranahewa_CV.pdf';
-                        var a = document.createElement('a');
-                        a.href = url;
-                        a.download = fileName;
-                        document.body.appendChild(a);
-                        a.click();
-                        document.body.removeChild(a);
-                    }
-                </script>
-            </section>
         </main>
 
         <!--===== FOOTER =====-->
